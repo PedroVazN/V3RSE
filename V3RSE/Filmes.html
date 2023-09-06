@@ -19,35 +19,31 @@
   </head>
 
   <body>
+    <div class="content">
+      <header class="cabecalho">
+        <h1 class="cabecalho__titulo">TOP 10 Filmes</h1>
 
+        <div class="cabecalho__pesquisa">
+          <input
+            type="text"
+            class="cabecalho__pesquisa-input"
+            placeholder="Digite algum filme para pesquisar..."
+          />
+          <span class="cabecalho__pesquisa-lupa">
+            <img src="./Frontend/img/search-icon.svg" alt="" />
+          </span>
+        </div>
 
-<div class="content">
+        <label class="cabecalho__checkbox">
+          <input type="checkbox" id="cabecalho__checkbox" />
+          Mostrar meus filmes favoritos apenas
+        </label>
+      </header>
 
-    <header class="cabecalho">
-      <h1 class="cabecalho__titulo">TOP 10 Filmes</h1>
-
-      <div class="cabecalho__pesquisa">
-        <input
-          type="text"
-          class="cabecalho__pesquisa-input"
-          placeholder="Digite algum filme para pesquisar..."
-        />
-        <span class="cabecalho__pesquisa-lupa">
-          <img src="./Frontend/img/search-icon.svg" alt="" />
-        </span>
-      </div>
-
-      <label class="cabecalho__checkbox">
-        <input type="checkbox" id="cabecalho__checkbox" />
-        Mostrar meus filmes favoritos apenas
-      </label>
-    </header>
-
-    <section id="filmes"></section>
-    <section class="card__lista-vazia">
-      Você ainda não adicionou nenhum filme a sua lista de favoritos!
-    </section>
-
+      <section id="filmes"></section>
+      <section class="card__lista-vazia">
+        Você ainda não adicionou nenhum filme a sua lista de favoritos!
+      </section>
     </div>
 
     <script src="./Backend/js/script.js" type="module"></script>

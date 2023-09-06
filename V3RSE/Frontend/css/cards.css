@@ -40,14 +40,14 @@
     font-size: 18px;
     font-weight: 500;
     line-height: normal;
-    text-align: center; /* Centraliza o texto */
+    text-align: center; 
   }
   
   .cards__parte2-text {
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
-    text-align: center; /* Centraliza o texto */
+    text-align: center; 
   }
   
   .cards__parte2-details {

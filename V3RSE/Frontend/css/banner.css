@@ -51,7 +51,6 @@ body {
     
   }
   
-  /* Estilize a barra lateral */
   .sidebar {
     width: 150px;
     background-color: rgba(0, 0, 0, 0.7); /* Fundo da barra lateral com transparência */
