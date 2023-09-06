@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popular Movies</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./Frontend/css/reset.css" />
+    <link rel="stylesheet" href="./Frontend/css/base.css" />
+    <link rel="stylesheet" href="./Frontend/css/cabecalho.css" />
+    <link rel="stylesheet" href="./Frontend/css/cards.css" />
+  </head>
+
+  <body>
+
+
+<div class="content">
+
+    <header class="cabecalho">
+      <h1 class="cabecalho__titulo">TOP 10 Filmes</h1>
+
+      <div class="cabecalho__pesquisa">
+        <input
+          type="text"
+          class="cabecalho__pesquisa-input"
+          placeholder="Digite algum filme para pesquisar..."
+        />
+        <span class="cabecalho__pesquisa-lupa">
+          <img src="./Frontend/img/search-icon.svg" alt="" />
+        </span>
+      </div>
+
+      <label class="cabecalho__checkbox">
+        <input type="checkbox" id="cabecalho__checkbox" />
+        Mostrar meus filmes favoritos apenas
+      </label>
+    </header>
+
+    <section id="filmes"></section>
+    <section class="card__lista-vazia">
+      Você ainda não adicionou nenhum filme a sua lista de favoritos!
+    </section>
+
+    </div>
+
+    <script src="./Backend/js/script.js" type="module"></script>
+    <script src="./Backend/js/filtro.js" type="module"></script>
+    <script src="./Backend/js/main.js" type="module"></script>
+  </body>
+</html>
