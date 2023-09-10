@@ -1,0 +1,41 @@
+header {
+    margin: 25px 0;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background: #65656525;
+    backdrop-filter: blur(10px);
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 1.15em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--font);
+}
+
+.container-menu a, #scroolBySearch{
+    margin: 0 16px;
+    border: 0;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color: var(--font-shadow);
+    background: none;
+    transition: 500ms;
+}
+
+.container-menu a:hover, #scroolBySearch:hover {
+    color: var(--font);
+    text-shadow: 0 0 5px var(--details-prim), 0 0 15px var(--details-prim-shadow);
+}

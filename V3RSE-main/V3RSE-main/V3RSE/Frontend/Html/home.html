@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V3RSE</title>
+
+    <link rel="stylesheet" href="../css/root.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/cabecalho.css" />
+    <link rel="stylesheet" href="../css/cards.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-header">
+        <label id="logo">V3rse</label>
+      </div>
+      <div class="container-menu">
+        <button id="scroolBySearch"><i class="fi fi-br-search"></i></button>
+        <a href="#"><i class="fi fi-br-settings"></i></a>
+        <a href="./index.html"><i class="fi fi-br-exit"></i></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="module poster">
+        <div class="container-poster-details">
+          <h1>Vingadores: Ultimato</h1>
+          <button>Ver mais</button>
+          <img src="../src/Heart.svg" alt="heart" class="heart-poster">
+        </div>
+      </section>
+
+      <div class="container-favoritos">
+        <h2>Favoritos</h2>
+        <section class="card__lista-vazia">
+          Você ainda não adicionou nenhum filme a sua lista de favoritos!
+        </section>
+      </div>
+
+      <section class="container-search">
+        <input
+          type="text"
+          class="cabecalho__pesquisa-input"
+          placeholder="Digite algum filme para pesquisar..."
+        />
+        <span class="cabecalho__pesquisa-lupa">
+          <img src="../src/search-icon.svg" alt="search-icon" />
+        </span>
+      </section>
+
+      <div class="container-filmes">
+        <section id="filmes"></section>
+      </div>
+    </main>
+
+    <script src="../../Backend/js/script.js" type="module"></script>
+    <script src="../../Backend/js/filtro.js" type="module"></script>
+    <script src="../../Backend/js/main.js" type="module"></script>
+    <script src="../../Backend/js/redirect.js"></script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(to bottom, #121212 50%, #272727);
+}
+
+section.module {
+    margin-bottom: 25px;
+    width: 100%;
+    height: 80vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.module.poster {
+    background: url("https://s2.glbimg.com/2C0hMRuCY_7NfDPjby4_Bjmq8Nc=/e.glbimg.com/og/ed/f/original/2018/03/22/avengers-infinity-war-official-poster-2018-4o.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+section.module.poster::before {
+    content: '';
+    width: 100%;
+    height: 80vh !important;
+    z-index: 1;
+    background: #1212124b;
+    position: absolute;
+}
+
+section.module.poster::after {
+    content: '';
+    width: 100%;
+    height: 80vh !important;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0)55%, #121212 90%);
+    position: absolute;
+}
+
+section.module.poster .container-poster-details {
+    z-index: 10;
+    position: relative;
+    top: -10%;
+    left: -25%;
+    transform: translate(25%, 10%);
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.module.poster .container-poster-details h1 {
+    margin-bottom: 20px;
+    max-width: 250px;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--font);
+}
+
+section.module.poster .container-poster-details button {
+    padding: 8px 0;
+    padding-inline: 1.25rem;
+    border: 0;
+    border-radius: 50px;
+    background: linear-gradient(120deg, #1D294A, #417179);
+    font-size: 0.7em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--font);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+section.module.poster .container-poster-details button:hover {
+    font-weight: 500;
+    box-shadow: 0 0 5px var(--details-prim), 0 0 15px var(--details-prim-shadow);
+}
+
+section.module.poster .container-poster-details .heart-poster {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.container-favoritos {
+    margin: 25px 0;
+    padding: 0 8px;
+    margin-bottom: 50px;
+    z-index: 10;
+    max-width: 900px;
+    position: relative;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+.container-favoritos h2 {
+    margin: 10px 0;
+    border-bottom: 2px solid var(--font);
+    width: max-content;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--font);
+}
+
+.container-search {
+    margin: 25px auto;
+    padding: 0 8px;
+    border-bottom: 2px solid var(--font);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+    cursor: text;
+}
+
+.container-search input {
+    padding: 8px 16px;
+    border: 0;
+    width: 95%;
+    background: none;
+    outline: none;
+    color: var(--font);
+}
+
+.cabecalho__pesquisa-lupa {
+    min-width: 20px;
+    max-width: 40px;
+    opacity: 0.5;
+}
+
+@media screen and (max-width:426px) {
+    section.module.poster .container-poster-details h1 {
+        font-size: 2em;
+    }
+    .container-search{
+        max-width: 400px;
+        min-width: 150px;
+    }
+}
