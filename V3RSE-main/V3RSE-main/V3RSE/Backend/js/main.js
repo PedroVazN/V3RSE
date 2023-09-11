@@ -53,8 +53,9 @@ function InserirFilmesNaTela(filmes) {
 
     // Cria um ícone de classificação
     const ratingDiv = document.createElement("div");
+    ratingDiv.className = "cards_parte2-stars"
     const ratingImg = document.createElement("img");
-    ratingImg.src = "./Frontend/img/Star.svg"; // Ícone de estrela
+    ratingImg.src = "../src/Star.svg"; // Ícone de estrela
     ratingImg.alt = "star";
     ratingImg.className = "cards__parte2-icon";
 
@@ -70,6 +71,7 @@ function InserirFilmesNaTela(filmes) {
 
     // Cria um elemento para favoritar o filme
     const favoriteDiv = document.createElement("div");
+    favoriteDiv.className = "cards_parte2-favorite"
     const favoriteCheckbox = document.createElement("input");
     favoriteCheckbox.type = "checkbox"; // Cria uma caixa de seleção
     favoriteCheckbox.className = "cards__parte2-checkbox";
