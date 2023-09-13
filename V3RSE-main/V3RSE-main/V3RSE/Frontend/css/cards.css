@@ -111,3 +111,20 @@
     margin-bottom: 20px;
   }
 }
+
+.cards__parte2-checkbox {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 4px;
+  background: url(../src/Heart.svg) no-repeat center / 80%;
+  outline: none;
+  cursor: pointer;
+}
+
+.cards__parte2-checkbox:checked {
+  background: url(../src/heart-full.svg) no-repeat center / 80%;
+}
