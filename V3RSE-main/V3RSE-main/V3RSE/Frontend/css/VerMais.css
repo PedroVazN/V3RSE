@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.scroll-animation {
+    animation-name: scrollDown;
+    animation-duration: 0.1s;
+    animation-timing-function: ease; 
+  }
+  
+  @keyframes scrollDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100vh); 
+    }
+  }
+  
