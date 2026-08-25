@@ -1,48 +1,43 @@
+# V3RSE — Descoberta de Filmes
 
-![App Screenshot](https://github.com/PedroVazN/V3RSE/blob/main/V3RSE-main/V3RSE-main/V3RSE/Frontend/src/V3rse%20(7).png?raw=true)
+Aplicação web para pesquisar filmes, consultar sinopses e ajudar o usuário a escolher o que assistir.
 
-
-## V3RSE
- 
-- é a sua ferramenta completa para explorar o vasto mundo do cinema, permitindo que você tome decisões informadas sobre o que assistir a seguir. Seja você um cinéfilo ávido ou apenas alguém em busca de uma boa diversão, o CineBusca está aqui para ajudá-lo a encontrar os melhores filmes para cada ocasião. Explore, descubra e desfrute do mundo do cinema com CineBusca!
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=fff)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=fff)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
 
 ## Funcionalidades
 
-#### Busca Abrangente:
+- Pesquisa de filmes
+- Consulta de sinopses e informações
+- Navegação por uma interface visual voltada ao universo do cinema
+- Integração com a API do The Movie Database
+- Organização de conteúdo para descoberta de títulos
 
-- Nosso mecanismo de busca abrange todas as principais plataformas de streaming, incluindo Netflix, Amazon Prime Video, Disney+, HBO Max, Hulu, e muito mais. Além disso, você pode encontrar informações sobre filmes disponíveis em DVD ou Blu-ray.
+## Tecnologias
 
-#### Favoritos e Listas Personalizadas:
+- HTML5
+- CSS3
+- JavaScript
+- [The Movie Database API](https://www.themoviedb.org/documentation/api)
 
-- Crie sua própria lista de filmes favoritos. Marque os filmes que deseja assistir mais tarde e organize-os em listas personalizadas para facilitar o acompanhamento.
+## Configuração da API
 
+Crie sua própria chave no TMDB e mantenha-a fora do código versionado. Nunca publique chaves reais no README ou em arquivos enviados ao GitHub.
 
-#### Sinopses Detalhadas:
+## Como executar
 
-- Forneçemos sinopses detalhadas de todos os filmes em nosso banco de dados. Saiba do que se trata o filme antes de assisti-lo e tome decisões informadas sobre o que ver a seguir.
+```bash
+git clone https://github.com/PedroVazN/V3RSE.git
+cd V3RSE/V3RSE-main/V3RSE-main/V3RSE
+```
 
+Configure a credencial do TMDB conforme o código da aplicação e abra `Frontend/Html/index.html` utilizando um servidor local, como a extensão Live Server.
 
+## Contexto acadêmico
 
-### Creator
+Projeto desenvolvido durante o curso técnico em Análise e Desenvolvimento de Sistemas do SENAI Ipiranga.
 
-- [@PedroVazN](https://github.com/PedroVazN)
+## Autor
 
-
-
-## Documentação da API
-
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | 9bbf7d734588f0a01ba0510c39e7e786|
-
-### THE MOVIE DATABASE API
-
-- Link -> [API](https://www.themoviedb.org)
-
-
-
-# Tecnologias
-
-![App Screenshot](https://github.com/PedroVazN/V3RSE/blob/main/V3RSE-main/V3RSE-main/V3RSE/Frontend/src/V3rse%20(8).png?raw=true)
-
-
+Desenvolvido por [Pedro Vaz Nascimento](https://github.com/PedroVazN).
